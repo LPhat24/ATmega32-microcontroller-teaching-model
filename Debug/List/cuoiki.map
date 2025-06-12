@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+c                                                                                 0x0260       6
+ADC0                                                                              0x0266       1
+mystr                                                                             0x0267      10
+nhietdo                                                                           0x0271       2
+mystr2                                                                            0x0273       5
+LED7_Code                                                                         0x0278      10
+demxung                                                                           0x0282       2
+_base_y                                                                           0x0284       4
+_lcd_x                                                                            0x0288       1
+_lcd_y                                                                            0x0289       1
+_lcd_maxx                                                                         0x028A       1
+_seed                                                                             0x028B       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+length                                                                            R4,R5        2
+i                                                                                 R6,R7        2
+j                                                                                 R8,R9        2
+k                                                                                 R10,R11      2
+x                                                                                 R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x00080     20
+read_adc                                                                          0x00094     14
+htso_mayphat                                                                      0x000A2     30
+bai_35                                                                            0x000C0     49
+bai_31_A                                                                          0x000F1     19
+bai_31_B                                                                          0x00104     19
+bai_32                                                                            0x00117     27
+bai_38_39                                                                         0x00132     67
+bai_310                                                                           0x00175     21
+main                                                                              0x0018A     62
+_lcd_write_nibble_G100                                                            0x001C8     20
+_lcd_write_data                                                                   0x001DC     12
+lcd_gotoxy                                                                        0x001E8     17
+lcd_clear                                                                         0x001F9     14
+lcd_putchar                                                                       0x00207     32
+lcd_puts                                                                          0x00227     15
+lcd_putsf                                                                         0x00236     19
+lcd_init                                                                          0x00249     47
+strlen                                                                            0x00278     12
+itoa                                                                              0x00284     46
